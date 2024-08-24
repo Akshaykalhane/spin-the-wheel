@@ -1,0 +1,98 @@
+.SpinWheel{
+    width: 100vw;
+    height: 100svh;
+    background-image: url('../../assets/darkbg.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    padding: 0vh 2vh;
+    justify-content: flex-start !important;
+    gap: 5vh;
+    .logoContainer{
+        width: 66vw;
+        /* border: 2px solid red; */
+        margin-top: 4vh;
+    }
+    .wheelWrapper{
+        width: 100%;
+        height: 82%;
+        /* border: 2px solid white; */
+        position: relative;
+        justify-content: flex-end !important;
+        .wheelContainer{
+            width: 100%;
+            /* height: 100%; */
+            position: relative;
+            top: 14vw;
+            z-index: 2;
+            .wheel{
+                width: 100%;
+                height: 100%;
+                /* border: 10px solid red; */
+                border-radius: 50%;
+                /* animation: rotation 5s ease-in-out; */
+            }
+            .spinPointer{
+                width: 16vw;
+                /* border: 3px solid green; */
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+            }
+        }
+        .spinnerBase{
+            /* border: 2px solid red; */
+            width: 80%;
+            z-index: 1;
+            position: relative;
+            .buttonBox{
+                position: absolute;
+                bottom: 10vw;
+                /* width: 100%; */
+                button{
+                    width: 40vw;
+                    padding: 2vw;
+                    font-size: 4vw;
+                    outline: none;
+                    border: none;
+                    border-radius: 0.8vw;
+                    text-transform: capitalize;
+                }
+            }
+        }
+        /* .wheel{
+            width: 100%;
+            z-index: 2;
+            position: absolute;
+            top: 32vw;
+        }
+        .spinPointer{
+            position: absolute;
+            z-index: 3;
+            bottom: 63vw;
+        }
+        .spinnerBase{
+            position: absolute;
+            bottom: 0;
+        } */
+    }
+    .bottomImage{
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        /* border: 2px solid red; */
+    }
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(3390deg);
+    }
+  }
+
+  

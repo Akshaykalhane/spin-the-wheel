@@ -1,0 +1,77 @@
+.QRCODEHome{
+    width: 100vw;
+    height: 100svh;
+    background-image: url('../../assets/qrbg.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    padding: 7vh 4vh;
+    justify-content: flex-start !important;
+    gap: 12vw;
+    .logoContainer{
+        width: 60vw;
+        /* border: 2px solid red; */
+    }
+    .qrCodeWindow{
+        /* border: 2px solid red; */
+        width: 98%;
+        padding: 3vh 3vh;
+        height: auto;
+        /* width: 50vw;
+        height: 70vh; */
+        position: relative;
+        z-index: 2;
+        background-color: #eff2f3;
+        justify-content: flex-start !important;
+        border: 1.6vw solid #00173b;
+        border-radius: 4vw;
+        gap: 3vh;
+      
+        .buttonContainer{
+            cursor: pointer;
+            width: 95%;
+            /* border: 2px solid red; */
+            padding: 1.4vh 1vh;
+            gap: 2vh;
+            background-color: #1f293ee2;
+            border-radius: 1vh;
+            box-shadow: 0 0.3vw 1.7vw #0b0f16;
+            button{
+                outline: none;
+                background-color: transparent;
+                border: none;
+                font-size: 8vw;
+                color: #eff2f3;
+            }
+            img{
+                width: 8vw;
+                height: auto;
+
+                /* width: 2vw; */
+            }
+        }
+        .smallIcons{
+            /* border: 2px solid red; */
+            position: absolute;
+            bottom: -17vh;
+            right: -4vh;
+            img{
+                width: 13vh;
+            }
+        }
+    }
+    .rightImg{
+        /* border: 2px solid red; */
+        position: absolute;
+        right: 0;
+        /* top: 0; */
+        bottom: 0;
+    }
+    .bottomImage{
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+    
+}

@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'antara distance';
+    src: url('../../assets/fonts/aAntaraDistance.ttf');
+    font-weight: normal !important;
+}
+
+.Congratulation{
+    width: 100vw;
+    height: 100svh;
+    background-image: url('../../assets/darkbg.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    padding: 4vh 4vh;
+    justify-content: flex-start !important;
+    gap: 16vh;
+    .logoContainer{
+        width: 69vw;
+        /* border: 2px solid red; */
+    }
+
+    .congratsBox{
+        width: 100%;
+        height: 50vh;
+        background-color: #fff;
+        padding: 17vw 4vw;
+        gap: 4vh;
+        border: 0.6vw solid rgb(239, 150, 8);
+        /* justify-content: flex-start !important; */
+        border-radius: 5vw;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        .congratsH2{
+            /* border: 2px solid red; */
+            width: 80%;
+            h2{
+                font-size: 8.5vw;
+                text-align: center;
+                letter-spacing: 1vw;
+                /* font-family: 'antara distance'; */
+                color: rgb(52, 51, 50);
+            }
+        }
+        .rewardBox{
+            width: 100%;
+            gap: 2vh;
+            h2{
+                font-size: 8vw;
+                color: rgb(34, 34, 45);
+            }
+            .rewardBtn{
+                width: 40vw;
+                padding: 2vw;
+                font-size: 6vw;
+                outline: none;
+                border: none;
+                color: #fff;
+                background-color: rgb(34, 34, 45);
+                border-radius: 0.9vw;
+            }
+        }
+    }
+
+    .bottomImage{
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+}
