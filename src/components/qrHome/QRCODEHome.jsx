@@ -14,7 +14,9 @@ function QRCODEHome({setComponent}) {
   return (
     <div className={`flex-col-center ${styles.QRCODEHome}`}>
         <div className={`flex-col-center ${styles.logoContainer}`}>
+            <div className={styles.qrImg}>
             <img src={logo} alt="logo img" />
+            </div>
         </div>
         <div className={`flex-col-center ${styles.qrCodeWindow}`}>
             <img src={qrImg} alt="qrimg" />

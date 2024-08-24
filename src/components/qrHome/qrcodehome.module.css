@@ -11,6 +11,7 @@
     gap: 12vw;
     .logoContainer{
         width: 60vw;
+        z-index: 2;
         /* border: 2px solid red; */
     }
     .qrCodeWindow{
@@ -27,6 +28,10 @@
         border: 1.6vw solid #00173b;
         border-radius: 4vw;
         gap: 3vh;
+       
+        .qrImg{
+            width: 20vw;
+        }
       
         .buttonContainer{
             cursor: pointer;
@@ -45,7 +50,7 @@
                 color: #eff2f3;
             }
             img{
-                width: 8vw;
+                width: 8vw ;
                 height: auto;
 
                 /* width: 2vw; */
@@ -65,8 +70,10 @@
         /* border: 2px solid red; */
         position: absolute;
         right: 0;
+        width: 33vw;
         /* top: 0; */
         bottom: 0;
+        z-index: 0;
     }
     .bottomImage{
         width: 100%;
